@@ -1,0 +1,146 @@
+
+body{
+  background: #666;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+ul{
+  padding: 0;
+}
+
+.container{
+  background: #333;
+  width: 1200px;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.clr{
+  clear:both;
+}
+#header{
+  height: 40px;
+  font-size: bold;
+  background: #92C47D;
+}
+#header ul{
+  padding-top: 13px;
+  padding-left: 10px; 
+}
+#header li{
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+  
+}
+
+#header a:hover{
+  background-color: #45a049; 
+  padding: 5px;
+  border-radius: 10%;
+}
+.active{
+  font-weight: bold;
+  color: #92C47D;
+}
+#blog{
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  float: left;
+  background-color: #666;
+  margin-top: 10px;
+  border-radius: 5%;
+  padding: 10px;
+  width:30%;
+}
+
+#fotter{
+  padding: 10px;
+  background: #92C47D;
+  text-align: center;
+  margin-top: 30px;
+
+}
+#dataContainer{
+  float: left;
+  width: 70%;
+}
+.btn{
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.btn1{
+  width: 50%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.containerlogin {
+    width: 300px;
+    margin: 0 auto;
+    padding: 60px;
+    box-shadow: 2px;
+    border: 2px solid #F0F2F5;
+
+  }
+  .containerlogin input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .containerlogin button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .containerlogin button:hover {
+    background-color: #45a049;
+  }
+
+  #dataContainer{
+    margin-bottom: 20px;
+  }
+  #dataContainer h1{
+    font-size: 24px;
+    margin-bottom: 5px;
+
+  }
+  #dataContainer p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  
+/* @media screen and (max-width: 768px) {
+  .container {
+    padding: 5px;
+  }
+
+  #sidebar {
+    width: 100%;
+  }
+
+  #blog {
+    width: 100%;
+  }
+
+  .containerlogin {
+    padding: 30px;
+  }
+} */
