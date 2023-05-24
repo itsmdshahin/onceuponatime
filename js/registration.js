@@ -11,15 +11,15 @@ function Register() {
      var fullNameRegex = /^[a-zA-Z]+$/;
      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
      var passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]{8,}$/;
-     if (fullName.trim() == "") {
+     if (fullName.trim() === "") {
        alert("Please enter your full name.");
         return;
      }
-     if (password.trim() == "") {
+     if (password.trim() === "") {
        alert("Please enter your email.");
         return;
      }
-     if (email.trim() == "") {
+     if (email.trim() === "") {
        alert("Please enter your email.");
         return;
      }
